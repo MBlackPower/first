@@ -8,7 +8,7 @@ int main ()
   char * pch;
   pch = strstr (str,"simple");
   strncpy (pch,"sample",6);
-  std::string strTemp = "";
+
   puts (str);
   return 0;
 }
